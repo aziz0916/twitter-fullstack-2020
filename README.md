@@ -41,6 +41,12 @@ https://dev.mysql.com/downloads/workbench/
 create database ac_twitter_workspace;
 ```
 
+### 設定資料庫Table
+
+```
+npx sequelize db:migrate
+```
+
 ### 設定種子資料
 
 ```
